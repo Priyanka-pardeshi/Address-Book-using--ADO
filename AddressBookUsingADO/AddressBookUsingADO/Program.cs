@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SqlClient;
 
 namespace AddressBookUsingADO
 {
@@ -6,7 +7,11 @@ namespace AddressBookUsingADO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Address book sing ado .net");
+            Console.WriteLine("Address book using ado .net");
+            AddressBook AddressObj = new AddressBook();
+            AddressObj.CreareConnection();
+            Console.ReadKey();
         }
+
     }
 }
