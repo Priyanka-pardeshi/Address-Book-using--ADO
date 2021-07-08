@@ -9,7 +9,7 @@ namespace AddressBookUsingADO
         {
             Console.WriteLine("Address book using ado .net");
             AddressBook AddressObj = new AddressBook();
-            AddressObj.CreareConnection();
+            AddressObj.Insert();
             Console.ReadKey();
         }
 
